@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		521B943F1B2EEBE9005E287B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 521B943E1B2EEBE9005E287B /* main.m */; };
+		521B94421B2EEBE9005E287B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 521B94411B2EEBE9005E287B /* AppDelegate.m */; };
+		521B94451B2EEBE9005E287B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521B94441B2EEBE9005E287B /* ViewController.m */; };
+		521B94481B2EEBE9005E287B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521B94461B2EEBE9005E287B /* Main.storyboard */; };
+		521B944A1B2EEBE9005E287B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521B94491B2EEBE9005E287B /* Images.xcassets */; };
+		521B944D1B2EEBE9005E287B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521B944B1B2EEBE9005E287B /* LaunchScreen.xib */; };
+		521B94681B2EEC5E005E287B /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 521B94671B2EEC5E005E287B /* libc++.dylib */; };
+		521B946B1B2EECA1005E287B /* plane.armodel in Resources */ = {isa = PBXBuildFile; fileRef = 521B946A1B2EECA1005E287B /* plane.armodel */; };
+		521B947C1B2F0931005E287B /* waves.png in Resources */ = {isa = PBXBuildFile; fileRef = 521B947B1B2F0931005E287B /* waves.png */; };
+		521B947E1B2F0B7D005E287B /* waves.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 521B947D1B2F0B7D005E287B /* waves.mp4 */; };
+		521B94801B2F14D3005E287B /* kudan.armodel in Resources */ = {isa = PBXBuildFile; fileRef = 521B947F1B2F14D3005E287B /* kudan.armodel */; };
+		521B94821B2F2BE1005E287B /* target.png in Resources */ = {isa = PBXBuildFile; fileRef = 521B94811B2F2BE1005E287B /* target.png */; };
+		521B94881B2F5213005E287B /* lego.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 521B94871B2F5213005E287B /* lego.jpg */; };
+		521B949C1B2F52E4005E287B /* chrome_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 521B94961B2F52E4005E287B /* chrome_b.png */; };
+		521B949D1B2F52E4005E287B /* chrome_d.png in Resources */ = {isa = PBXBuildFile; fileRef = 521B94971B2F52E4005E287B /* chrome_d.png */; };
+		521B949E1B2F52E4005E287B /* chrome_f.png in Resources */ = {isa = PBXBuildFile; fileRef = 521B94981B2F52E4005E287B /* chrome_f.png */; };
+		521B949F1B2F52E4005E287B /* chrome_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 521B94991B2F52E4005E287B /* chrome_l.png */; };
+		521B94A01B2F52E4005E287B /* chrome_r.png in Resources */ = {isa = PBXBuildFile; fileRef = 521B949A1B2F52E4005E287B /* chrome_r.png */; };
+		521B94A11B2F52E4005E287B /* chrome_u.png in Resources */ = {isa = PBXBuildFile; fileRef = 521B949B1B2F52E4005E287B /* chrome_u.png */; };
+		52B41DA41B306EDB0012553B /* demo.KARMarker in Resources */ = {isa = PBXBuildFile; fileRef = 52B41DA31B306EDB0012553B /* demo.KARMarker */; };
+		52B41DB21B3078A90012553B /* KudanAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B41DB11B3078A90012553B /* KudanAR.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		521B94391B2EEBE9005E287B /* Kudan Simple Samples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kudan Simple Samples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		521B943D1B2EEBE9005E287B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521B943E1B2EEBE9005E287B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		521B94401B2EEBE9005E287B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		521B94411B2EEBE9005E287B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		521B94431B2EEBE9005E287B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		521B94441B2EEBE9005E287B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		521B94471B2EEBE9005E287B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		521B94491B2EEBE9005E287B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		521B944C1B2EEBE9005E287B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		521B94671B2EEC5E005E287B /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		521B946A1B2EECA1005E287B /* plane.armodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = plane.armodel; sourceTree = "<group>"; };
+		521B947B1B2F0931005E287B /* waves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waves.png; sourceTree = "<group>"; };
+		521B947D1B2F0B7D005E287B /* waves.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = waves.mp4; sourceTree = "<group>"; };
+		521B947F1B2F14D3005E287B /* kudan.armodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = kudan.armodel; sourceTree = "<group>"; };
+		521B94811B2F2BE1005E287B /* target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = target.png; sourceTree = "<group>"; };
+		521B94871B2F5213005E287B /* lego.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lego.jpg; sourceTree = "<group>"; };
+		521B94961B2F52E4005E287B /* chrome_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chrome_b.png; sourceTree = "<group>"; };
+		521B94971B2F52E4005E287B /* chrome_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chrome_d.png; sourceTree = "<group>"; };
+		521B94981B2F52E4005E287B /* chrome_f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chrome_f.png; sourceTree = "<group>"; };
+		521B94991B2F52E4005E287B /* chrome_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chrome_l.png; sourceTree = "<group>"; };
+		521B949A1B2F52E4005E287B /* chrome_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chrome_r.png; sourceTree = "<group>"; };
+		521B949B1B2F52E4005E287B /* chrome_u.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chrome_u.png; sourceTree = "<group>"; };
+		52B41DA31B306EDB0012553B /* demo.KARMarker */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.KARMarker; sourceTree = "<group>"; };
+		52B41DB11B3078A90012553B /* KudanAR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KudanAR.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		521B94361B2EEBE9005E287B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521B94681B2EEC5E005E287B /* libc++.dylib in Frameworks */,
+				52B41DB21B3078A90012553B /* KudanAR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		521B94301B2EEBE9005E287B = {
+			isa = PBXGroup;
+			children = (
+				521B94621B2EEC25005E287B /* Frameworks */,
+				521B943B1B2EEBE9005E287B /* Kudan Simple Samples */,
+				521B943A1B2EEBE9005E287B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		521B943A1B2EEBE9005E287B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				521B94391B2EEBE9005E287B /* Kudan Simple Samples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		521B943B1B2EEBE9005E287B /* Kudan Simple Samples */ = {
+			isa = PBXGroup;
+			children = (
+				521B94691B2EEC8A005E287B /* Content */,
+				521B94401B2EEBE9005E287B /* AppDelegate.h */,
+				521B94411B2EEBE9005E287B /* AppDelegate.m */,
+				521B94431B2EEBE9005E287B /* ViewController.h */,
+				521B94441B2EEBE9005E287B /* ViewController.m */,
+				521B94461B2EEBE9005E287B /* Main.storyboard */,
+				521B94491B2EEBE9005E287B /* Images.xcassets */,
+				521B944B1B2EEBE9005E287B /* LaunchScreen.xib */,
+				521B943C1B2EEBE9005E287B /* Supporting Files */,
+			);
+			path = "Kudan Simple Samples";
+			sourceTree = "<group>";
+		};
+		521B943C1B2EEBE9005E287B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				521B943D1B2EEBE9005E287B /* Info.plist */,
+				521B943E1B2EEBE9005E287B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		521B94621B2EEC25005E287B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52B41DB11B3078A90012553B /* KudanAR.framework */,
+				521B94671B2EEC5E005E287B /* libc++.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		521B94691B2EEC8A005E287B /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				521B946E1B2EED36005E287B /* Markers */,
+				521B94A21B2F5A92005E287B /* Models */,
+				521B94891B2F52D2005E287B /* Textures */,
+				521B94A31B2F5A9F005E287B /* Videos */,
+			);
+			name = Content;
+			sourceTree = "<group>";
+		};
+		521B946E1B2EED36005E287B /* Markers */ = {
+			isa = PBXGroup;
+			children = (
+				52B41DA31B306EDB0012553B /* demo.KARMarker */,
+				521B94871B2F5213005E287B /* lego.jpg */,
+				521B947B1B2F0931005E287B /* waves.png */,
+			);
+			name = Markers;
+			sourceTree = "<group>";
+		};
+		521B94891B2F52D2005E287B /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				521B94961B2F52E4005E287B /* chrome_b.png */,
+				521B94971B2F52E4005E287B /* chrome_d.png */,
+				521B94981B2F52E4005E287B /* chrome_f.png */,
+				521B94991B2F52E4005E287B /* chrome_l.png */,
+				521B949A1B2F52E4005E287B /* chrome_r.png */,
+				521B949B1B2F52E4005E287B /* chrome_u.png */,
+			);
+			name = Textures;
+			sourceTree = "<group>";
+		};
+		521B94A21B2F5A92005E287B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				521B94811B2F2BE1005E287B /* target.png */,
+				521B946A1B2EECA1005E287B /* plane.armodel */,
+				521B947F1B2F14D3005E287B /* kudan.armodel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		521B94A31B2F5A9F005E287B /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				521B947D1B2F0B7D005E287B /* waves.mp4 */,
+			);
+			name = Videos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		521B94381B2EEBE9005E287B /* Kudan Simple Samples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521B945C1B2EEBE9005E287B /* Build configuration list for PBXNativeTarget "Kudan Simple Samples" */;
+			buildPhases = (
+				521B94351B2EEBE9005E287B /* Sources */,
+				521B94361B2EEBE9005E287B /* Frameworks */,
+				521B94371B2EEBE9005E287B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kudan Simple Samples";
+			productName = KudanSamples;
+			productReference = 521B94391B2EEBE9005E287B /* Kudan Simple Samples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		521B94311B2EEBE9005E287B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Kudan;
+				TargetAttributes = {
+					521B94381B2EEBE9005E287B = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 521B94341B2EEBE9005E287B /* Build configuration list for PBXProject "Kudan Simple Samples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 521B94301B2EEBE9005E287B;
+			productRefGroup = 521B943A1B2EEBE9005E287B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				521B94381B2EEBE9005E287B /* Kudan Simple Samples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		521B94371B2EEBE9005E287B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521B949F1B2F52E4005E287B /* chrome_l.png in Resources */,
+				521B94A11B2F52E4005E287B /* chrome_u.png in Resources */,
+				521B94A01B2F52E4005E287B /* chrome_r.png in Resources */,
+				521B94881B2F5213005E287B /* lego.jpg in Resources */,
+				521B94481B2EEBE9005E287B /* Main.storyboard in Resources */,
+				521B94801B2F14D3005E287B /* kudan.armodel in Resources */,
+				52B41DA41B306EDB0012553B /* demo.KARMarker in Resources */,
+				521B949D1B2F52E4005E287B /* chrome_d.png in Resources */,
+				521B947C1B2F0931005E287B /* waves.png in Resources */,
+				521B944D1B2EEBE9005E287B /* LaunchScreen.xib in Resources */,
+				521B94821B2F2BE1005E287B /* target.png in Resources */,
+				521B944A1B2EEBE9005E287B /* Images.xcassets in Resources */,
+				521B949E1B2F52E4005E287B /* chrome_f.png in Resources */,
+				521B947E1B2F0B7D005E287B /* waves.mp4 in Resources */,
+				521B949C1B2F52E4005E287B /* chrome_b.png in Resources */,
+				521B946B1B2EECA1005E287B /* plane.armodel in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		521B94351B2EEBE9005E287B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521B94451B2EEBE9005E287B /* ViewController.m in Sources */,
+				521B94421B2EEBE9005E287B /* AppDelegate.m in Sources */,
+				521B943F1B2EEBE9005E287B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		521B94461B2EEBE9005E287B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521B94471B2EEBE9005E287B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		521B944B1B2EEBE9005E287B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521B944C1B2EEBE9005E287B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		521B945A1B2EEBE9005E287B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		521B945B1B2EEBE9005E287B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		521B945D1B2EEBE9005E287B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Kudan Simple Samples/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Kudan Simple Samples";
+			};
+			name = Debug;
+		};
+		521B945E1B2EEBE9005E287B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Kudan Simple Samples/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Kudan Simple Samples";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		521B94341B2EEBE9005E287B /* Build configuration list for PBXProject "Kudan Simple Samples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521B945A1B2EEBE9005E287B /* Debug */,
+				521B945B1B2EEBE9005E287B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521B945C1B2EEBE9005E287B /* Build configuration list for PBXNativeTarget "Kudan Simple Samples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521B945D1B2EEBE9005E287B /* Debug */,
+				521B945E1B2EEBE9005E287B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 521B94311B2EEBE9005E287B /* Project object */;
+}
