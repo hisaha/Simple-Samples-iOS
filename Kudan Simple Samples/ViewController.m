@@ -70,6 +70,10 @@ typedef enum {
         meshNode.material = cameraMaterial;
     }
     
+    // Material that remains on the marker should be black.
+    ARMeshNode *blackNode = [planeNode findMeshNode:@"occlusion"];
+    blackNode.material = [[ARColourMaterial alloc] initWithRed:0 green:0 blue:0];
+    
     // The height of the plane in object space is 22.652, scale it to match the height of the marker.
     float scaleFactor = legoTrackable.height / 22.652;
     [planeNode scaleByUniform:scaleFactor];
