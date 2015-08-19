@@ -4,7 +4,7 @@
 @interface ViewController : ARCameraViewController
 
 - (IBAction)arbiTrackButtonClicked:(id)sender;
-@property () IBOutlet UIButton *arbiTrackButton;
+@property (weak) IBOutlet UIButton *arbiTrackButton;
 
 @end
 
