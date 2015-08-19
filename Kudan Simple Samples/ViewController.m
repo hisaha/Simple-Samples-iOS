@@ -1,10 +1,10 @@
 #import "ViewController.h"
 
-typedef enum {
+typedef NS_ENUM(NSInteger, ArbiTrackState) {
     ARBI_STOPPED,
     ARBI_PLACEMENT,
     ARBI_TRACKING,
-} ArbiTrackState;
+};
 
 @interface ViewController ()
 {
