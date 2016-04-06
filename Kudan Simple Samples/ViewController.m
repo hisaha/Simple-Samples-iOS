@@ -148,8 +148,8 @@ typedef NS_ENUM(NSInteger, ArbiTrackState) {
     ARTextureCube *environmentTexture = [[ARTextureCube alloc] initWithBundledFiles:@[ @"chrome_b.png", @"chrome_f.png", @"chrome_u.png", @"chrome_d.png", @"chrome_r.png", @"chrome_l.png"]];
     
     ARLightMaterial *chromeMaterial = [[ARLightMaterial alloc] init];
-    chromeMaterial.reflectivity = 1;
-    chromeMaterial.cubeTexture = environmentTexture;
+    chromeMaterial.reflection.reflectivity = 1;
+    chromeMaterial.reflection.environment = environmentTexture;
     
     for (ARMeshNode *meshNode in kudanNode.meshNodes) {
         meshNode.material = chromeMaterial;
